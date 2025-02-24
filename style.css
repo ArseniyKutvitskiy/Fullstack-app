@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,700;1,700&family=Yuji+Mai&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    background-color:  gray;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-inner a{
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.title h2{
+    margin: 12px;
+}
+
+.card-content {
+    background-color: gray;
+    padding: 20px;
+    width: 400px;
+    height: 220px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px;
+    margin-left: 12px;
+}
+
+.card h2,p{
+    color: white;
+}
+
+.card-title {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.card-text {
+    margin-top: 10px;
+    color: white;
+}
+
+.card-button {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 7px 7px 7px 7px;
+
+}
+
+.card-button:hover {
+    opacity: 0.9;
+}
