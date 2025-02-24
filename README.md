@@ -22,4 +22,4 @@ pip3 -r requirements.txt
 python3 manage.py runserver
 ```
 
-## [Django Documentation]
+## [Django Documentation](https://django.fun/docs/django/5.0/)
